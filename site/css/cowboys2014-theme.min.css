@@ -406,10 +406,14 @@ b	: 	194
 }
 
 /* site specific extensions */
-.cowboy-bg {
+/*.cowboy-bg {
     background-image:url(../assets/img/icons/star.svg),none;
     background-size:1000px 1000px;
-    background-position:-300px -300px;
+    background-position:-550px -550px;
     background-repeat: no-repeat;
 }
+.cowboy-bg {
+    background-image:url(../assets/img/bg/hex02.png),none;
+}
+*/
 /*# sourceMappingURL=bootstrap-theme.css.map */
