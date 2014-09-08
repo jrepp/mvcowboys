@@ -14,4 +14,4 @@ safe: true
 lsi: false
 hilighter: true
 paginate: 10
-exclude: ["scripts", "Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss', 'bootstrap.scss']
+exclude: ["scripts", "Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss', 'bootstrap.scss', 'site.sublime*']
