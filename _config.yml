@@ -1,12 +1,17 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Mission Viejo Cowboys Football and Cheer
+email: mvcowboysinfo@gmail.com
+description: "Mission Viejo Cowboys Football and Cheer program"
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://localhost:4000"
+twitter_username: mvcowboys
+github_username:  jrepp
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
+safe: true
+lsi: false
+hilighter: true
+paginate: 10
+exclude: ["scripts", "Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss', 'bootstrap.scss']
