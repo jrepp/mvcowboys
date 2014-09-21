@@ -53,16 +53,16 @@
         <!-- /.container -->
     </nav>
 
-
 	<header role="banner">
-
 	</header>
 
     <!-- Page Content -->
     <div class="container">
-
         <div class="row">
         	<div class="col-md-8">
+                {% for page in site.pages %}
+                    <div>{{page.url}}</div>
+                {% endfor %}
 	        	<h1 class="page-header">
 	               Latest News and Events
 	                <small>Secondary Text</small>
