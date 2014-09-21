@@ -3,10 +3,39 @@
 	{
 		"selected_items":
 		[
+			[
+				"owl",
+				"owl-example"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "_site/css/dev/boot/bootstrap.scss",
+			"settings":
+			{
+				"buffer_size": 923,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 7678,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_data/upcoming_events.yml",
+			"settings":
+			{
+				"buffer_size": 126,
+				"line_ending": "Unix",
+				"name": "- name: Golf Tournament"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -35,10 +64,17 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/jrepp/src/mvcowboys",
+		"/Users/jrepp/src/mvcowboys/.sass-cache",
+		"/Users/jrepp/src/mvcowboys/_data",
+		"/Users/jrepp/src/mvcowboys/_includes",
 		"/Users/jrepp/src/mvcowboys/_layouts",
-		"/Users/jrepp/src/mvcowboys/_pages",
-		"/Users/jrepp/src/mvcowboys/_posts",
-		"/Users/jrepp/src/mvcowboys/_site",
+		"/Users/jrepp/src/mvcowboys/_site/cowboy post",
+		"/Users/jrepp/src/mvcowboys/_site/css",
+		"/Users/jrepp/src/mvcowboys/_site/css/dev",
+		"/Users/jrepp/src/mvcowboys/_site/css/dev/boot",
+		"/Users/jrepp/src/mvcowboys/_site/css/dev/font",
+		"/Users/jrepp/src/mvcowboys/_site/page2",
 		"/Users/jrepp/src/mvcowboys/css"
 	],
 	"file_history":
@@ -77,8 +113,95 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_site/css/dev/boot/bootstrap.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3847,
+								3847
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 855.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_data/upcoming_events.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"auto_name": "- name: Golf Tournament",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -88,7 +211,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -155,7 +278,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 776.0,
+	"side_bar_width": 386.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
