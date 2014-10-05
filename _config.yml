@@ -7,8 +7,19 @@ url: "http://localhost:4000"
 twitter_username: mvcowboys
 github_username:  jrepp
 
+collections:
+    content:
+        output: true
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: "content"
+        values:
+            layout: "content"
+
 # Build settings
-markdown: redcarpet
 permalink: pretty
 safe: true
 lsi: false

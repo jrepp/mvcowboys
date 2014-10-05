@@ -1,0 +1,15 @@
+---
+---
+@import "boot/bootstrap.scss";
+@import "custom.scss";
+table { 
+    @extend .table; 
+    > tbody {
+        width: 100%;
+        > tr {
+            > td {
+                white-space: nowrap;
+            }
+        }
+    }
+}
