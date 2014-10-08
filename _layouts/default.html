@@ -1,0 +1,157 @@
+{% include head.html %}
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+        	<div class="col-md-8">
+
+                <ul class="dropdown-menu" role="menu" aria-labelelledby="dropdownMenu2">
+                    {% for content in site.content %}
+                        <li role="presentation" class="menuitem">
+                            <a href="{{content.url}}">{{content.title}}</a>
+                        </li>
+                    {% endfor %}
+                </ul> 
+
+	        	<h1 class="page-header">
+	               Mission Viejo Cowboys 
+	                <small>News and Events</small>
+	            </h1>
+
+	            <div id="owl-example" class="owl-carousel">
+	            	<div><img src="/assets/2014-09-06-mightymite/game1.png"></img>Test 1</div>
+	            	<div><img src="/assets/2014-09-06-mightymite/game2.png"></img>Test 2</div>
+	            	<div><img src="/assets/2014-09-06-mightymite/game3.png"></img>Test 3</div>
+	            	<div><img src="/assets/2014-09-06-mightymite/game4.png"></img>Test 4</div>
+	            </div>
+
+                <!-- Posts -->
+                {% for post in site.posts limit:3 %}
+
+                <h2>
+                    <a href="#">{{post.title}}</a>
+                </h2>
+                <p class="lead">
+                    by <a href="index.php">{{page.author}}</a>
+                </p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on {{post.date | date_to_long_string }}</p>
+                <hr>
+                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+                <hr>
+                <p>{{post.exerpt}}</p>
+                <a class="btn btn-primary" href="#">
+                    Read More 
+                    <span class="glyphicon glyphicon-chevron-right">
+                    </span>
+                </a>
+                <hr>
+
+                {% endfor %}
+			</div>
+
+
+	        <!-- Blog Sidebar Widgets Column -->
+	        <div class="col-md-4">
+
+	            <!-- Upcoming events well -->
+	            <div class="well">
+	            	<h4>Upcoming Events</h4>
+	            	<div class="row">
+	            		<ul>
+	            		{% for event in site.data.upcoming_events %}
+	            			<li> 
+                            <div>
+                            <span class="glyphicon glyphicon-time"></span> 
+                            <span>{{event.name}} {{event.date}} {{event.location}}</span>
+                            </div>
+                            </li>
+	            		{% endfor %}
+	            		</ul>
+	            	</div>
+	            </div>
+
+	             <!-- Important maps well -->
+	            <div class="well">
+	            	<h4>Important maps</h4>
+	            	<h5>La Paz Field</h5>
+	            	<div class="row">
+	            	<iframe width="300" height="250" frameborder="0" style="border:0"
+						src="https://www.google.com/maps/embed/v1/view?key=AIzaSyDUgX6VN_VeSKc3_v2dSn21Yc9NU46VTZs&center=33.599043,-117.669671&zoom=18&maptype=satellite"></iframe>
+	            	</div>
+	            </div>
+
+	            <!-- Search well -->
+	            <div class="well">
+	                <h4>Search</h4>
+	                <div class="input-group">
+                        <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+                        <script type="text/javascript"> 
+                            google.load('search', '1', {language : 'en'});
+                            google.setOnLoadCallback(function() {
+                            var customSearchControl = new google.search.CustomSearchControl('003013616125562838920:lezwpvqsqgo');
+                            customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+                            customSearchControl.draw('cse');
+                            }, true);
+                        </script>
+
+	                    <!--
+                        <input type="text" class="form-control">
+	                    <span class="input-group-btn">
+	                        <button class="btn btn-default" type="button">
+	                            <span class="glyphicon glyphicon-search"></span>
+	                    </button>
+	                    </span>
+                        -->
+	                </div>
+	                <!-- /.input-group -->
+	            </div>
+
+	            <!-- Blog Categories Well -->
+	            <div class="well">
+                    {% capture tags %}
+                        {% for tag in site.tags %}
+                            {{ tag[0] | replace: ' ', '&#32;' }}
+                        {% endfor %}
+                    {% endcapture %}
+                    {% assign sortedtags = tags | split:' ' | sort %}
+
+                    {% for tag in sortedtags %}
+                        <h4>#{{ tag }}</h4>
+                        <ul>
+                            {% for post in site.tags[tag] %}
+                                <li>
+                                    <span>{{ post.date | date_to_string }}</span>
+                                    <a href="{{ post.url }}">{{ post.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endfor %}
+
+	                <h4>Blog Categories</h4>
+	                <div class="row">
+	                    <div class="col-lg-6">
+	                        <ul class="list-unstyled">
+                            {% for category in site.categories %}
+	                            <li><a href="#">{{category.name}}</a></li>
+                            {% endfor %}
+	                        </ul>
+	                    </div>
+	                    <!-- /.col-lg-6 -->
+	                </div>
+	                <!-- /.row -->
+	            </div>
+
+	            <!-- Side Widget Well -->
+	            <div class="well">
+                    <h4>Posts</h4>
+                    <ul>
+				    {% for post in site.posts limit:10 %}
+                        <li>{{page.title}}</li>
+                    {% endfor %}
+                    </ul>
+	            </div>
+	        </div>
+        </div>
+	</div>
+
+{% include footer.html %}

@@ -1,0 +1,28 @@
+# Site settings
+title: Mission Viejo Cowboys Football and Cheer
+email: mvcowboysinfo@gmail.com
+description: "Mission Viejo Cowboys Football and Cheer program"
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: mvcowboys
+github_username:  jrepp
+
+collections:
+    content:
+        output: true
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: "content"
+        values:
+            layout: "content"
+
+# Build settings
+permalink: pretty
+safe: true
+lsi: false
+hilighter: true
+paginate: 10
+exclude: ["scripts", "Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss', 'bootstrap.scss', 'site.sublime*']
