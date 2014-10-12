@@ -1,7 +1,7 @@
 ---
 title: Meet our Head Coaches
 categories: []
-tags: []
+tags: ['Coaching']
 status: publish
 type: content
 published: true

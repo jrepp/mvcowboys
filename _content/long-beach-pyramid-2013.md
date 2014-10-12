@@ -1,7 +1,7 @@
 ---
-title: Long Beach Pyramid - 2013
+title: "Long Beach Pyramid - 2013"
 categories: []
-tags: []
+tags: ['Media']
 status: publish
 type: content
 published: true

@@ -1,7 +1,7 @@
 ---
 title: FAQ
 categories: []
-tags: []
+tags: ['About']
 status: publish
 type: content
 published: true

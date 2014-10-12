@@ -1,7 +1,7 @@
 ---
 title: Game shots
 categories: []
-tags: []
+tags: ['Media']
 status: publish
 type: content
 published: true

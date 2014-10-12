@@ -1,7 +1,7 @@
 ---
 title: football photos
 categories: []
-tags: []
+tags: ['Media']
 status: publish
 type: content
 published: true

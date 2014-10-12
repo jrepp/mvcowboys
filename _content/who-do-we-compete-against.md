@@ -1,8 +1,8 @@
 ---
-title: Who do we compete against?
+title: "Who do we compete against?"
 categories:
 - General
-tags: []
+tags: ['About']
 status: publish
 type: content
 published: true

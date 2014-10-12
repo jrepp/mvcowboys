@@ -1,7 +1,7 @@
 ---
-title: hi-lites
+title: Videos
 categories: []
-tags: []
+tags: ['Media']
 status: publish
 type: content
 published: true

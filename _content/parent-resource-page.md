@@ -2,7 +2,7 @@
 title: ''
 categories:
 - General
-tags: []
+tags: ['About']
 status: publish
 type: content
 published: true
