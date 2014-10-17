@@ -2,8 +2,7 @@
 title: Locate Us
 categories:
 - Cowboy Post
-tags:
-- For Website Page
+tags: ['resources']
 status: publish
 type: content
 published: true

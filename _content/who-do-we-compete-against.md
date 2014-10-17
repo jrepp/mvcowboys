@@ -2,7 +2,7 @@
 title: "Who do we compete against?"
 categories:
 - General
-tags: ['About']
+tags: ['about']
 status: publish
 type: content
 published: true

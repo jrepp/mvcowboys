@@ -1,7 +1,7 @@
 ---
 title: cheer photos
 categories: []
-tags: []
+tags: ['media']
 status: publish
 type: content
 published: true

@@ -2,7 +2,7 @@
 title: Registration information.....
 categories:
 - General
-tags: []
+tags: ['resources']
 status: publish
 type: content
 published: true

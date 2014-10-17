@@ -2,7 +2,7 @@
 title: Our Coaches
 categories:
 - General
-tags: []
+tags: ['about']
 status: draft
 type: content
 published: false

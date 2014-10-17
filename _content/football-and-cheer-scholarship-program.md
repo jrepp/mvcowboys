@@ -1,7 +1,7 @@
 ---
 title: "Football and Cheer Scholarship Program"
 categories: []
-tags: ['about']
+tags: ['resources']
 status: publish
 type: content
 published: true

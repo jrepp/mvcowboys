@@ -1,0 +1,11 @@
+<li id="main-dropdown" class="dropdown">
+		<a id="dropmenu-{{include.tag}}" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+		{{include.title}}
+		<span class="caret" />
+	</a>
+	<ul class="dropdown-menu" role="menu" aria-labelledby="dropmenu-{{include.tag}}">
+		<li role="presentation">
+			{% for content in site.content %}{% if content.tags contains include.tag %}<a role="menuitem" tabindex="-1" href="{{content.url}}">{{content.title}}</a>{% endif %}{% endfor %}
+		</li>
+	</ul>
+</li>

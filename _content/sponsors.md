@@ -1,7 +1,7 @@
 ---
 title: Sponsors
 categories: []
-tags: []
+tags: ['about']
 status: publish
 type: content
 published: true

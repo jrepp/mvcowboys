@@ -1,7 +1,7 @@
 ---
 title: Important Phone Numbers
 categories: []
-tags: []
+tags: ['resources']
 status: publish
 type: content
 published: true

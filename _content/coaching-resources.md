@@ -1,7 +1,7 @@
 ---
 title: "Coach's Info"
 categories: []
-tags: ['Coaching']
+tags: ['about']
 status: publish
 type: content
 published: true

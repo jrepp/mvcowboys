@@ -2,7 +2,7 @@
 title: Our History
 categories:
 - General
-tags: ['About']
+tags: ['about']
 status: publish
 type: content
 published: true

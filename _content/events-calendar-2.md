@@ -1,7 +1,7 @@
 ---
 title: Calendar
 categories: []
-tags: []
+tags: ['events']
 status: publish
 type: content
 published: true

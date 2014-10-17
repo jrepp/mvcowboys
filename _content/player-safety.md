@@ -2,7 +2,7 @@
 title: Player Safety
 categories:
 - Safety and Equipment
-tags: []
+tags: ['resources']
 status: publish
 type: content
 published: true

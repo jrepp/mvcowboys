@@ -2,7 +2,7 @@
 title: Game Schedule - click title for Map(s)
 categories:
 - General
-tags: []
+tags: ['events']
 status: publish
 type: content
 published: true

@@ -1,7 +1,7 @@
 ---
 title: Cowboys Alumni
 categories: []
-tags: ['About']
+tags: ['about']
 status: publish
 type: content
 published: false

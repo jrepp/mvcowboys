@@ -2,7 +2,7 @@
 title: Proper Equipment Sizing and Fitting
 categories:
 - Safety and Equipment
-tags: ['About']
+tags: ['resources']
 status: publish
 type: content
 published: true

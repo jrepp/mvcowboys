@@ -2,7 +2,7 @@
 title: PCC Super Bowl Champions
 categories:
 - General
-tags: ['About']
+tags: ['media']
 status: publish
 type: content
 published: true

@@ -1,28 +1,68 @@
 ---
-title: "We want to connect with you!"
+title: "Contact"
 categories:
-- Cowboy Post
-tags: ['About']
+tags: ['resources']
 status: publish
 type: content
 published: true
 author: 
 ---
-![Icon_ContactUs2](http://mvcowboysfootball.files.wordpress.com/2000/07/icon_contactus2-e1374606197907.png)
 
 Please fill out the form below, and we will do our best to contact you within 24-48 hours of submission.
 
-[contact-form to='mvcowboysi​nfo@gmail.​com' subject='MV Cowboy Website - Contact Us!!']
-[contact-field label='What is your full name?' type='name' required='1'/]
-[contact-field label='Can we have your email address?' type='email' required='1'/]
-[contact-field label='What is your childs full name?' type='name' required='0'/]
-[contact-field label='What is their age as of July 31st?' type='select' options='-Please Select One-,5,6,7,8,9,10,11,12,13,14'/]
-[contact-field label='Check if you have multiple children interested in the program' type ='checkbox'/]
-[contact-field label='How did you hear about the MV Cowboys%26#039; Program?' type='text' required='1'/]
-[contact-field label='What area are you interested in?' type='select' options='-Please Select One-, Cowboys Football Program,Cowboys Cheer Program,Cowboys Coaching Position,I would like to Volunteer,Sponsorship and Marketing,Community Outreach, Available Camp'/]
-[contact-field label='Check if you are you a new Resident' type='checkbox'/]
-[contact-field label='Enter a phone number if you would like a call back.' type='text'/]
-[contact-field label='How can we be of assistance?' type='textarea' required='1'/]
-[contact-field label='In what ways can we improve our Chapter to better serve you?' type='textarea' required='0'/]
-[/contact-form]
+<form role="form-horizontal" action='mailto:jacobrepp@gmail.com' subject='MV Cowboy Website - Contact'>
+
+<div class="form-group">
+	<label for="full-name">Full Name</label>
+	<input class="form-control" id="full-name" placeholder="Your Name">
+</div>
+
+<div class="form-group">
+	<label for="email">Email</label>
+	<input class="form-control" id="email" placeholder="youremail@domain.com" id="email" type="email"/>
+</div>
+
+<div class="form-group">
+	<label for="phone-number">Primary Phone Number</label>
+	<input class="form-control" id="phone-number" type="text" placeholder="(949) 123-5555"/>
+</div>
+
+<div class="form-group">
+	<label for="child-name">Child's Full Name</label>
+	<input class="form-control" id="child-name" placeholder="Your Child's Name"/>
+</div>
+
+<div class="form-group">
+	<label for="child-age">Enter your child's age as of July 31st</label>
+	<input class="form-control" id="child-age" placeholder="5,6,7,8,9,10,11,12,13,14"/>
+</div>
+
+<div class="form-group">
+	<label for="multiple-children">Do you have multiple children interested in the program?</label>
+	<input id="multiple-children" type="checkbox"/>
+</div>
+
+<div class="form-group">
+	<label for="resident-checkbox">Are you a new Resident?</label>
+	<input id="resident-checkbox" type="checkbox"/>
+</div>
+
+<div class="form-group">
+	<label for="full-name">How did you hear about the MV Cowboy's Program?</label>
+	<input class="form-control" id="referral" type="text" />
+</div>
+
+<div class="form-group">
+	<label for="full-name">What area are you interested in?</label>
+	<input class="form-control" id="info-query-type" type="text" placeholder="Football, Cheer, Coaching, Volunteer, Sponsorship, Marketing, Camps, Other" />
+</div>
+
+<div class="form-group">
+	<label for="full-name">Additional Comments or Questions</label>
+	<input class="form-control" id="questions" type="textarea"/>
+</div>
+
+<input type="submit" value="Send Query" />
+
+</form>
 
