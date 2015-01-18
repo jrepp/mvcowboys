@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<title>{% if page.title %} {{ page.title }} {% endif %} - Mission Viejo Cowboys Football and Cheer</title>
+		<title>{% if page.title %} {{ page.title }} - {% endif %}Mission Viejo Cowboys Football and Cheer</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive site -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!-- chrome frame -->
 		<meta name="viewport" content="user-scalable=no"> <!-- prevents browser zoom on small devices -->
@@ -32,20 +32,18 @@
 			<nav class="navbar navbar-default navbar-static" role="navigation">
 				<div class="container-fluid">
 					<div class="collapse navbar-collapse">
-						<!-- Horizontal box -->
 						<ul class="nav navbar-nav">
+							<li class="home-link"><a href="http://localhost:4000/">Home</a></li>
 							{% include dropdown.html title='About' tag='about' %}
 							{% include dropdown.html title='Parent Resources' tag='resources' %}
 							{% include dropdown.html title='Events and Activities' tag='events' %}
 							{% include dropdown.html title='Media' tag='media' %}
 						</ul>
-						<!-- End horizontal box -->
 					</div>
 				</div>
 			</nav>
 		</div>
-
 	</header>
 
-	<hr>
+	<hr />
 

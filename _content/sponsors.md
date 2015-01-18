@@ -13,6 +13,20 @@ author:
 
 ### Want to become a sponsor? Simply [click here for more details on the sponsorship levels](http://mvcowboysfootball.files.wordpress.com/2013/08/sponsorship-packet-mvyf-2013.pdf "Sponsorship Forms")that are available.
 
+### Sponsorship Packages
+
+### Sponsorship Requirements
+
+## Sponsor Content
+
+* Name to appear in promotional materials
+* Large image for usage in banners and for full page / half page layouts
+* Small image for usage in site content and flyers
+* Advertising slug - max 140 characters for usage in web and pring layout
+* URL of site (e.g.: http://yoursite.com)
+* Address and business hours if appropriate
+
+ 
 ##### Completed form(s) can be mailed to
 
 ##### **MVYF, PO Box 2182, Mission Viejo, CA 92690** or given to your Team Representative.

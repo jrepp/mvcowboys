@@ -10,6 +10,8 @@ github_username:  jrepp
 collections:
     content:
         output: true
+    carousel:
+        output: true
 
 defaults:
     -
