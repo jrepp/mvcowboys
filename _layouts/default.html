@@ -1,19 +1,27 @@
 {% include head.html %}
+
 <!-- Page Content -->
 <div class="container">
   <div class="row">
     <div class="col-md-8">
+      <h2 class="page-header">
+        <div>Mission Viejo Cowboys</div>
+      </h2>
       <!-- Sponsor Carousel -->
+      <h3>
+        <div><small>Sponsors</small></div>
+      </h3>
       <div id="sponsor-carousel" class="owl-carousel">
         {% for sponsor in site.data.sponsors %}
-          <div>{{sponsor.name}} {{sponsor.image_small}}</div>
+        <div class="sponsor-carousel">
+            <div><a href="{{sponsor.url}}"><img class="scaled-img" src="{{sponsor.image_small}}"></a></div>
+        </div>
         {% endfor %}
       </div>
 
-      <h2 class="page-header">
-        <div>Mission Viejo Cowboys</div>
-        <div><small>News and Events</small></div>
-      </h2>
+      <h3>
+        <div><small>Important and Upcoming</small></div>
+      </h3>
 
       <!-- Content carousel -->
       <div id="content-carousel" class="owl-carousel">
@@ -21,6 +29,10 @@
           {{item.content}}
         {% endfor %}
       </div>
+
+      <h3>
+        <div><small>News and Events</small></div>
+      </h3>
 
         <!-- Posts -->
         {% for post in site.posts limit:3 %}

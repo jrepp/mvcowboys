@@ -4,20 +4,9 @@
     name: "Staples"
     season: 2014
     level: 1
-    image_small: ""
+    image_small: "http://mvcowboysfootball.files.wordpress.com/2012/09/sponsor_staples_button.jpg"
     image_large: ""
-    url: ""
-    address: ""
-    hours: ""
-    info_text: ""
-
--
-    name: "Dick's Sporting Goods"
-    season: 2014
-    level:  1
-    image_small: ""
-    image_large: ""
-    url: ""
+    url: "http://www.staples.com"
     address: ""
     hours: ""
     info_text: ""
@@ -26,9 +15,9 @@
     name: "Advanced Orthodontic Center"
     season: 2014
     level:  1
-    image_small: ""
+    image_small: "http://mvcowboysfootball.files.wordpress.com/2012/09/sponsor_orthodontic_button.jpg"
     image_large: ""
-    url: ""
+    url: "http://www.advancedorthodonticcenter.com/user/"
     address: ""
     hours: ""
     info_text: ""
@@ -37,9 +26,9 @@
     name: "Southern California Pizza"
     season: 2014
     level:  1
-    image_small: ""
+    image_small: "http://mvcowboysfootball.files.wordpress.com/2013/08/sponsor_socal_button.jpg"
     image_large: ""
-    url: ""
+    url: "http://www.socalpizzamv.com/"
     address: ""
     hours: ""
     info_text: ""
@@ -48,9 +37,9 @@
     name: "Incredible Marketing"
     season: 2014
     level:  1
-    image_small: ""
+    image_small: "http://mvcowboysfootball.files.wordpress.com/2012/09/sponsor_incrediblemarketing_button.jpg"
     image_large: ""
-    url: ""
+    url: "http://www.incrediblemarketing.com/"
     address: ""
     hours: ""
     info_text: ""
@@ -59,20 +48,9 @@
     name: "Kool Kahuna Shave Ice"
     season: 2014
     level:  1
-    image_small: ""
+    image_small: "http://mvcowboysfootball.files.wordpress.com/2012/09/sponsor_koolhahunameats.jpg"
     image_large: ""
-    url: ""
-    address: ""
-    hours: ""
-    info_text: ""
-
--
-    name: "Staples"
-    season: 2014
-    level:  1
-    image_small: ""
-    image_large: ""
-    url: ""
+    url: "http://www.koolkahunashaveice.com/"
     address: ""
     hours: ""
     info_text: ""
@@ -81,9 +59,9 @@
     name: "Dick's Sporting Goods"
     season: 2014
     level:  1
-    image_small: ""
+    image_small: "http://mvcowboysfootball.files.wordpress.com/2012/09/sponsor_dicksportinggoods_button.jpg"
     image_large: ""
-    url: ""
+    url: "http://www.dickssportinggoods.com/home/index.jsp"
     address: ""
     hours: ""
     info_text: ""
@@ -92,9 +70,9 @@
     name: "Buffalo Wild Wings"
     season: 2014
     level:  1
-    image_small: ""
+    image_small: "http://mvcowboysfootball.files.wordpress.com/2012/09/sponsor_buffalowildwings_button.jpg"
     image_large: ""
-    url: ""
+    url: "http://www.buffalowildwings.com/locations/Detail/3419"
     address: ""
     hours: ""
     info_text: ""
@@ -103,9 +81,9 @@
     name: "By His Grace"
     season: 2014
     level:  1
-    image_small: ""
+    image_small: "http://mvcowboysfootball.files.wordpress.com/2012/09/sponsor_byhisgrace_button.jpg"
     image_large: ""
-    url: ""
+    url: "http://www.byhisgracephotography.com/"
     address: ""
     hours: ""
     info_text: ""
@@ -114,9 +92,9 @@
     name: "Chick-fil-a"
     season: 2014
     level:  1
-    image_small: ""
+    image_small: "http://mvcowboysfootball.files.wordpress.com/2012/09/sponsor_chickfila_button.jpg"
     image_large: ""
-    url: ""
+    url: "http://www.cfarestaurant.com/eltororoad/home"
     address: ""
     hours: ""
     info_text: ""
@@ -125,9 +103,9 @@
     name: "El Toro Gourmet Meats"
     season: 2014
     level:  1
-    image_small: ""
+    image_small: "http://mvcowboysfootball.files.wordpress.com/2012/09/sponsor_eltoromeats1.jpg"
     image_large: ""
-    url: ""
+    url: "http://www.eltoromeats.com/html/home.html"
     address: ""
     hours: ""
     info_text: ""
@@ -136,9 +114,9 @@
     name: "Mountain Mike's Pizza"
     season: 2014
     level:  1
-    image_small: ""
+    image_small: "http://mvcowboysfootball.files.wordpress.com/2013/08/sponsor_mountainmikes_button.jpg"
     image_large: ""
-    url: ""
+    url: "http://www.mountainmikes.com/"
     address: ""
     hours: ""
     info_text: ""
@@ -148,9 +126,9 @@
     name: "Elite Transportation"
     season: 2014
     level:  1
-    image_small: ""
+    image_small: "http://mvcowboysfootball.files.wordpress.com/2012/09/sponsor_elitetransportation1.jpg"
     image_large: ""
-    url: ""
+    url: "http://www.elitetransportation.org/index.html"
     address: ""
     hours: ""
     info_text: ""
@@ -159,9 +137,9 @@
     name: "Cox Communications"
     season: 2014
     level:  1
-    image_small: ""
+    image_small: "http://mvcowboysfootball.files.wordpress.com/2012/09/sponsor_coxcommunications.jpg"
     image_large: ""
-    url: ""
+    url: "http://ww2.cox.com/residential/orangecounty/home.cox"
     address: ""
     hours: ""
     info_text: ""

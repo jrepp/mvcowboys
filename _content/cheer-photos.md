@@ -1,5 +1,5 @@
 ---
-title: cheer photos
+title: Cheer Photos
 categories: []
 tags: ['media']
 status: publish

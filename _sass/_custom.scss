@@ -46,3 +46,18 @@ color: #fff !important;
 
 // 4. Shared Styles
 // --------------------------------------------------
+
+.scaled-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carousel-bg-football {
+    background-image: url('/assets/football-and-field.jpg');
+    width: 360px;
+    height: 225px;
+}
+
+.container { 
+    padding-top: 20px;
+}

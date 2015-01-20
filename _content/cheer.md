@@ -11,6 +11,8 @@ author:
 
 # **Cheer Program**
 
+{% include youtube.html embed="4mbPO1ac1Ss" width="853" height="480" %}
+
 With your spirit, cheer can add to the success of a football team. Our goal is to form bonds of friendship amongst cheerleaders as well as parents while learning good sportsmanship and team work. All new comers are welcomed to our program!
 
 ![](http://mvcowboysfootball.files.wordpress.com/2012/09/20130112-0309.jpg?w=675)
@@ -56,5 +58,4 @@ Details will be provided later. Please understand that registration fees are non
 
 # A total **savings of**  **_over_ $300** compared to other local organizations!
 
-[youtube http://www.youtube.com/watch?v=4mbPO1ac1Ss?rel=0&w=853&h=480]
 
