@@ -4,18 +4,17 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <!--<h2 class="page-header">
-        <div>Mission Viejo Cowboys</div>
-    </h2>-->
-      <img src="/assets/header-med.jpg" />
+      <img class="img-responsive" src="/assets/header-med.jpg" />
+
       <!-- Sponsor Carousel -->
       <h3>
         <div><small>Sponsors</small></div>
       </h3>
+
       <div id="sponsor-carousel" class="owl-carousel">
         {% for sponsor in site.data.sponsors %}
         <div class="sponsor-carousel">
-            <div><a href="{{sponsor.url}}"><img class="scaled-img" src="{{sponsor.image_small}}"></a></div>
+           <div><a href="{{sponsor.url}}"><img class="scaled-img" src="{{sponsor.image_small}}"></a></div>
         </div>
         {% endfor %}
       </div>
@@ -34,93 +33,17 @@
       <h3>
         <div><small>News and Events</small></div>
       </h3>
+    </div> <!-- ./col-md-8 -->
 
-        <!-- Posts -->
-        {% for post in site.posts limit:3 %}
-          <h2>
-            <a href="#">{{post.title}}</a>
-          </h2>
-          <p class="lead">
-            by <a href="index.php">{{page.author}}</a>
-          </p>
-          <p><span class="glyphicon glyphicon-time"></span> Posted on {{post.date | date_to_long_string }}</p>
-
-          <hr />
-
-          <img class="img-responsive" src="http://placehold.it/900x300" alt="">
-
-          <hr />
-
-          <p>{{post.exerpt}}</p>
-          <a class="btn btn-primary" href="#">
-            Read More 
-            <span class="glyphicon glyphicon-chevron-right">
-            </span>
-          </a>
-          <hr />
-        {% endfor %}
-      </div>
-
-      <!-- Blog Sidebar Widgets Column -->
-      <div class="col-md-4">
-
-        <!-- Upcoming events well -->
-        <div class="well">
-          <h4>Upcoming Events</h4>
-          <div class="row">
-            <ul>
-              {% for event in site.data.upcoming_events %}
-              <li> 
-                <div>
-                  <span class="glyphicon glyphicon-time"></span> 
-                  <span>{{event.name}} {{event.date}} {{event.location}}</span>
-                </div>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div> <!-- /well -->
-
-        <!-- Important maps well -->
-        <div class="well">
-          <h4>Important maps</h4>
-          <h5>La Paz Field</h5>
-          <div class="row">
-            <iframe width="300" height="250" frameborder="0" style="border:0"
-              src="https://www.google.com/maps/embed/v1/view?key=AIzaSyDUgX6VN_VeSKc3_v2dSn21Yc9NU46VTZs&center=33.599043,-117.669671&zoom=18&maptype=satellite"></iframe>
-          </div>
-        </div>
-
-        <!-- Search well -->
-        <div class="well">
-          <h4>Search</h4>
-          <div class="input-group">
-            <form method="get" action="http://www.google.com/search">
-              <table border="0" align="center" cellpadding="0">
-                <tr><td>
-                    <input type="text" name="q" size="25" maxlength="255" value="Google site search"
-                    onfocus="if(this.value==this.defaultValue)this.value=''; this.style.color='black';" onblur="if(this.value=='')this.value=this.defaultValue; "/>
-                    <input type="submit" value="Search" />
-                    <input type="hidden" name="sitesearch" value="mvcowboysfootball.com" />
-                </td></tr>
-              </table>
-            </form>
-          </div> <!-- /.input-group -->
-        </div> <!-- /.well -->
-
-        <!-- Side Widget Well -->
-        <div class="well">
-          <h4>Posts</h4>
-          <ul class="list-unstyled">
-            {% for post in site.posts limit:10 %}
-            <li><span class="glyphicon glyphicon-empty-star"/><a href="{{post.url}}">{{post.title}}</a></li>
-            {% endfor %}
-          </ul>
-        </div> <!-- /.well -->
-
-      </div>
+    <!-- Blog Sidebar Widgets Column -->
+    <div class="col-md-4">
+      {% include upcoming_events_well.html %}
+      {% include posts_well.html %}
+      {% include search_well.html %}
+      {% include locations_well.html %}
+      {% include affiliates_well.html %}
     </div>
-  </div> <!-- /.container -->
-</div>
+  </div> <!-- /.row -->
+</div> <!-- /.container -->
 
 {% include footer.html %}

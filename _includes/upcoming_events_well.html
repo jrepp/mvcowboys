@@ -1,0 +1,17 @@
+<!-- Upcoming events well -->
+<div class="well">
+  <h4>Upcoming Events</h4>
+  <div class="row">
+    <ul>
+      {% for event in site.data.upcoming_events %}
+      <li> 
+      <div>
+        <span class="glyphicon glyphicon-time"></span> 
+        <span>{{event.name}} {{event.date}} {{event.location}}</span>
+      </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div> <!-- /well -->
+

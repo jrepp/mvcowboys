@@ -8,23 +8,28 @@ type: content
 published: true
 author: 
 ---
-![Icon_LetterHead](http://mvcowboysfootball.files.wordpress.com/1974/09/icon_letterhead1.jpg)
+## Player Safetey Statement
 
-![Icon_USAFootball](http://mvcowboysfootball.files.wordpress.com/1974/09/icon_usafootball.jpg)  
-**Heads up football Introduction** [youtube=http://www.youtube.com/watch?v=WKJFNGjEyuY&w=560&h=315]
+Our goal, as an organization, is to continue to educate coaches, parents and atheletes on injury prevention, proper equipment fitting and sound football technique. We have partnered with USA football and the NFL to make a difference in player safety. Our coaches are all heads up certified and we take extra precautions to ensure that our practices adhere to the highest available standards in player safety.
 
-![Icon_ConcussionBanner](http://mvcowboysfootball.files.wordpress.com/1974/09/icon_concussionbanner.jpg)
+Additionally, our organization has a dedicated player safety coach to oversee our saftey procedures and act as a resource for parents and coaches. 
+
+Please view the video series below and stay tuned for more information as we continue to develop our standards player safety.
 
 ## **Concussion Awareness: 5 Part Video series**
 
 Part 1  
-[youtube=http://www.youtube.com/watch?v=fDdRjY\_iTj0&w=560&h=315]  
+{% include youtube.html embed="fDdRjY\_iTj0" width="560" height="315" %}
+
 Part 2  
-[youtube=http://www.youtube.com/watch?v=2guVgJIhiLs&w=560&h=315]  
+{% include youtube.html embed="2guVgJIhiLs" width="560" height="315" %}
+
 Part 3  
-[youtube=http://www.youtube.com/watch?v=F-EvFj4byZc=560&h=315]  
+{% include youtube.html embed="F-EvFj4byZc=560" height="315" %}
+
 Part 4  
-[youtube=http://www.youtube.com/watch?v=tDdMTsYil0A&w=560&h=315]  
+{% include youtube.html embed="tDdMTsYil0A" width="560" height="315" %}
+
 Part 5  
-[youtube=http://www.youtube.com/watch?v=1jlaeSl7gTk&w=560&h=315]
+{% include youtube.html embed="1jlaeSl7gTk" width="560" height="315" %}
 
