@@ -1,5 +1,5 @@
 ---
-title: Proper Equipment Sizing and Fitting
+title: Equipment Sizing and Fitting
 categories:
 - Safety and Equipment
 tags: ['resources']
@@ -7,18 +7,23 @@ status: publish
 type: content
 published: true
 author: 
+weight: 3
 ---
 ![Icon_HelmetandShoulderPads](http://mvcowboysfootball.files.wordpress.com/1953/09/icon_helmetandshoulderpads.jpg)
 
-**Helmets: Sizing**  
-[youtube=http://www.youtube.com/watch?v=i53UeBlowm8&w=560&h=315]
+## **Helmets: Sizing**
 
-**Helmets: Proper Fitting**  
-[youtube=http://www.youtube.com/watch?v=r\_ojB2waDpU&w=560&h=315]
+{% include youtube.html embed='i53UeBlowm8' width='560' height='315' %}
 
-**Helmets: How to Take Off a Helmet**  
-[youtube=http://www.youtube.com/watch?v=abHXcfr\_82g&w=560&h=315]
+## **Helmets: Proper Fitting**  
 
-**Shoulder Pads**  
-[youtube=http://www.youtube.com/watch?v=\_i4NkxI6mwc&w=560&h=315]
+{% include youtube.html embed='r\_ojB2waDpU' width='560' height='315' %}
+
+## **Helmets: How to Take Off a Helmet**  
+
+{% include youtube.html embed='abHXcfr\_82g' width='560' height='315' %}
+
+## **Shoulder Pads**  
+
+{% include youtube.html embed='\_i4NkxI6mwc' width='560' height='315' %}
 

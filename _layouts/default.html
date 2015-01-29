@@ -4,9 +4,10 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <h2 class="page-header">
+      <!--<h2 class="page-header">
         <div>Mission Viejo Cowboys</div>
-      </h2>
+    </h2>-->
+      <img src="/assets/header-med.jpg" />
       <!-- Sponsor Carousel -->
       <h3>
         <div><small>Sponsors</small></div>
@@ -36,7 +37,6 @@
 
         <!-- Posts -->
         {% for post in site.posts limit:3 %}
-
           <h2>
             <a href="#">{{post.title}}</a>
           </h2>
@@ -113,7 +113,7 @@
           <h4>Posts</h4>
           <ul class="list-unstyled">
             {% for post in site.posts limit:10 %}
-            <li><a href="{{post.url}}">{{post.title}}</a></li>
+            <li><span class="glyphicon glyphicon-empty-star"/><a href="{{post.url}}">{{post.title}}</a></li>
             {% endfor %}
           </ul>
         </div> <!-- /.well -->

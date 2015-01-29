@@ -6,6 +6,7 @@ status: publish
 type: content
 published: false
 author: 
+weight: 4
 ---
 We are proud to acknowledge the following alumni among the many fine athletes who have been a part of our program over the past 30 years.
 

@@ -1,3 +1,10 @@
-<iframe id="ytplayer" type="text/html" width="{{include.width}}" height="{{include.height}}"
-  src="http://www.youtube.com/embed/{{ include.embed }}?autoplay=0&origin=http://mvcowboysfootball.com"
-  frameborder="0"/>
+<object width="{{include.width}}" height="{{include.height}}">
+  <param name="movie"
+  value="http://www.youtube.com/v/{{ include.embed }}?version=3&autoplay=0&origin=http://mvcowboysfootball.com"></param>
+  <param name="allowScriptAccess" value="always"></param>
+  <embed src="http://www.youtube.com/v/{{ include.embed }}?version=3&autoplay=0&origin=http://mvcowboysfootball.com"
+         type="application/x-shockwave-flash"
+         allowscriptaccess="always"
+         width="{{ include.width }}" height="{{ include.height }}"></embed>
+</object>
+  
