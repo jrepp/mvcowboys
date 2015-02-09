@@ -1,12 +1,9 @@
 ---
 title: Game Schedules
-categories:
-- General
-tags: ['events']
+tags: ['football']
 status: publish
 type: content
-published: true
-author: 
+weight: 2
 ---
 
 ## 2015 Season Calendar Not Yet Available 

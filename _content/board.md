@@ -1,11 +1,9 @@
 ---
-title: Staff
+title: Board of Directors
 categories: []
 tags: ['about']
-status: publish
 type: content
 published: true
-author: 
 weight: 5
 ---
 

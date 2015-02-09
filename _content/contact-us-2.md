@@ -1,11 +1,8 @@
 ---
-title: "Contact"
-categories:
-tags: ['resources']
+title: "Contact Form"
+tags: ['parents']
 status: publish
 type: content
-published: true
-author: 
 weight: 1
 ---
 

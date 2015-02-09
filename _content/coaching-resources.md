@@ -1,11 +1,8 @@
 ---
 title: "Coaching Resources"
-categories: []
 tags: ['coaches']
 status: publish
 type: content
-published: true
-author: 
 weight: 1
 ---
 Our  **COACHES RESOURCE PAGE**  is to help our coaches achieve  **SUCCESS**. The Mission Viejo Cowboys believe that we are the #1 Chapter in Southern Orange County. And to maintain that we have to prepare our coaches as well as our players. Here they will find useful information to keep them on top of their game, and ahead of the competition.

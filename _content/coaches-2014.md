@@ -1,11 +1,9 @@
 ---
 title: Coaching Staff 2014
-categories: []
 tags: ['coaches']
 status: published
 type: content
-published: true
-author: 
+weight: 5
 ---
 # 2014 - Flag Head Coach - Anthony Camacho
 

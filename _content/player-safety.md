@@ -2,7 +2,7 @@
 title: Player Safety
 categories:
 - Safety and Equipment
-tags: ['resources']
+tags: ['football']
 status: publish
 type: content
 published: true

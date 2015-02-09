@@ -1,45 +1,40 @@
 {% include head.html %}
 
 <!-- Page Content -->
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col-md-8">
-      <img class="img-responsive" src="/assets/header-med.jpg" />
+      <img class="img-responsive" src="/assets/header-med-2.jpg" />
+
+			<hr>
 
       <!-- Sponsor Carousel -->
-      <h3>
-        <div><small>Sponsors</small></div>
-      </h3>
-
       <div id="sponsor-carousel" class="owl-carousel">
         {% for sponsor in site.data.sponsors %}
         <div class="sponsor-carousel">
-           <div><a href="{{sponsor.url}}"><img class="scaled-img" src="{{sponsor.image_small}}"></a></div>
+           <div><a href="{{sponsor.url}}"><img class="scaled-img img-responsive" src="{{sponsor.image_small}}"></a></div>
         </div>
         {% endfor %}
       </div>
 
-      <h3>
-        <div><small>Important and Upcoming</small></div>
-      </h3>
+			<hr>
 
       <!-- Content carousel -->
-      <div id="content-carousel" class="owl-carousel jumbotron">
-        {% for item in site.carousel %}
-          {{item.content}}
-        {% endfor %}
+      <div class="panel panel-default">
+				<div class="panel-heading"><h3>Important and Upcoming</h3></div>
+				<div id="content-carousel" class="panel panel-body owl-carousel">
+        	{% for item in site.carousel %}
+          	{{item.content}}
+        	{% endfor %}
+				</div>
       </div>
 
-      <h3>
-        <div><small>News and Events</small></div>
-      </h3>
     </div> <!-- ./col-md-8 -->
 
     <!-- Blog Sidebar Widgets Column -->
     <div class="col-md-4">
       {% include upcoming_events_well.html %}
       {% include posts_well.html %}
-      {% include search_well.html %}
       {% include locations_well.html %}
       {% include affiliates_well.html %}
     </div>

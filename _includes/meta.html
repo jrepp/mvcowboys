@@ -1,0 +1,12 @@
+<div class="row">
+	<div class="col-sm-offset-1 col-sm-7 text-capitalize">
+		Posted: <time datetime="{{page.date | date: "%Y-%m-%d"}}">{{page.date | date: "%B %e, %Y"}}</time>
+	</div>
+	<div class="col-sm-4">
+		<ul class="list-unstyled">
+		{% for tag in page.tags %}
+			<li class="list-inline"><span class="label label-default"><a class="tag_list_link" href="/tag/{{tag}}">{{tag}}</a></span></li>
+		{% endfor %}
+		</ul>
+	</div>
+</div>

@@ -1,17 +1,24 @@
 <!-- Upcoming events well -->
-<div class="well">
-  <h4>Upcoming Events</h4>
-  <div class="row">
-    <ul>
+<div class="panel panel-default">
+  <div class="panel-heading text-capitalize">Upcoming Events</div>
+  <div class="panel-body">
       {% for event in site.data.upcoming_events %}
-      <li> 
-      <div>
-        <span class="glyphicon glyphicon-time"></span> 
-        <span>{{event.name}} {{event.date}} {{event.location}}</span>
+      <div class="row">
+				<div class="col-xs-6">
+					<strong>{{event.name}}</strong>
+				</div>
+				<div class="col-xs-6">
+        	<span class="glyphicon glyphicon-time"></span> 
+					{{event.date}} {{event.datetime}}
+				</div>
+			</div>
+      <div class="row">
+				<div class="col-xs-11 col-xs-offset-1">
+        	<span class="glyphicon glyphicon-map-marker"></span> 
+					<span>{{event.location}}</span>
+				</div>
       </div>
-      </li>
       {% endfor %}
-    </ul>
   </div>
 </div> <!-- /well -->
 

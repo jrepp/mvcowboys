@@ -2,11 +2,9 @@
 title: Equipment Sizing and Fitting
 categories:
 - Safety and Equipment
-tags: ['resources']
+tags: ['football']
 status: publish
 type: content
-published: true
-author: 
 weight: 3
 ---
 ![Icon_HelmetandShoulderPads](http://mvcowboysfootball.files.wordpress.com/1953/09/icon_helmetandshoulderpads.jpg)
