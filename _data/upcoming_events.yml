@@ -1,9 +1,9 @@
 ---
 -
     name: Golf Tournament
-    date: 2014-10-03
-    location: Golf course
+    datetime: "Oct 3, 2014 7PM"
+    location: "Golf course"
 -
     name: Pumkin Bowl
-    date: 2014-11-10
-    location: La Paz Field
+    datetime: "Nov 11, 2014 3PM"
+    location: "La Paz Field"

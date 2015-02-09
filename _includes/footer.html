@@ -4,9 +4,10 @@
  	<!-- Footer -->
     <footer role="contentinfo">
         <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; Mission Viejo Cowboys 2015</p>
-                <p>This site uses bootstrap and owl-carousel</p>
+            <div class="col-xs-offset-1 col-xs-11 small text-muted">
+                <p>Copyright &copy; Mission Viejo Cowboys 2014, 2015</p>
+								<p>Built with <a href="http://jekyllrb.com/">jekyll</a>, <a href="http://getbootstrap.com">bootstrap</a>, <a href="http://owlgraphic.com/owlcarousel/">owl-carousel</a> and <a href="http://www.vim.org/">vim</a></p>
+								<p>Designed by <a href="http://github.com/jrepp">Jacob Repp</a></p>
             </div>
             <!-- /.col-lg-12 -->
         </div>
@@ -38,8 +39,19 @@
 			})
 		});
 	</script>
-    <script>
-		// analytics code
-    </script>
+  <script>
+		<!-- analytics code -->
+  </script>
+	
+	<!-- facebook integration -->
+	<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+ 		if (d.getElementById(id)) return;
+ 		js = d.createElement(s); js.id = id;
+ 		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+ 		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
 	</body>
 </html>

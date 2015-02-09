@@ -1,18 +1,15 @@
 ---
 title: "Scholarship Program"
-categories: []
-tags: ['resources']
+tags: ['football']
 status: publish
 type: content
-published: true
-author: 
 weight: 3
 ---
 # Mission Viejo Cowboys Youth
 
 # Football and Cheer Scholarship Program
 
-Mission Viejo Cowboys may grant registration fee scholarships to children who without this financial assistance would not be able to participate in one of the Mission Viejo Cowboys Youth Sports programs. The Mission Viejo Cowboys Youth Sports scholarship program focuses on providing opportunities for area youth to participate in recreational team sports because of the physical, mental, and character-training benefits these programs can provide. Scholarships are only available to cover the cost of registration for football or cheer as well as to cover any additional costs (uniforms, equipment, slush fund, etc).
+Mission Viejo Cowboys may grant registration fee scholarships to children who without this financial assistance would not be able to participate in one of the Mission Viejo Cowboys Youth Sports programs. The Mission Viejo Cowboys Youth Sports scholarship program focuses on providing opportunities for area youth to participate in recreational team sports because of the physical, mental, and character-training benefits these programs can provide. Scholarships are only available to cover the cost of registration for football or cheer as well as to cover any additional costs (uniforms, equipment, slush fund, etc).
 
 Scholarship requests must be submitted to the Mission Viejo Cowboys Youth Sports office no later than two (2) weeks prior to the regular registration deadline. Scholarships will not be awarded until one week prior to the registration deadline. The scholarship committee, which includes the President and the Administrator will consider all complete applications received by the application deadline. The amount of the scholarship awarded (if any) may be a partial or full scholarship depending on the number applicants, and amount of scholarship funds available. Scholarships are awarded for one registrant and are only valued for one spot, therefore, individuals registrants must reapply for each child and year they are requesting assistance.
 
@@ -36,7 +33,6 @@ _Mission Viejo Cowboys Youth Sports does not discriminate based on gender, race,
 
 **\*\*Please Note: Approval of a scholarship does not register the participant in the activity. You must still register the athlete in the sport desired.**
 
-[![pdf-icon-transparent-background2](http://mvcowboysfootball.files.wordpress.com/2014/04/pdf-icon-transparent-background2.png?w=150)](http://mvcowboysfootball.files.wordpress.com/2014/04/mission-viejo-cowboys-youth-application-v1.pdf) Download Application[/caption]
-
- 
+Download Application
+[![pdf-icon-transparent-background2](http://mvcowboysfootball.files.wordpress.com/2014/04/pdf-icon-transparent-background2.png?w=150)](http://mvcowboysfootball.files.wordpress.com/2014/04/mission-viejo-cowboys-youth-application-v1.pdf) 
 

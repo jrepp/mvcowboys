@@ -5,8 +5,7 @@ categories:
 tags: ['coaches']
 status: published
 type: content
-published: false
-author: 
+weight: 6
 ---
 # 2013 - Flag Head Coach - Daniel Badraun
 

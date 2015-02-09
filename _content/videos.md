@@ -1,16 +1,13 @@
 ---
-title: Videos
+title: Game Videos
 categories: []
-tags: ['media']
+tags: ['football']
 status: publish
 type: content
-published: true
-author: 
+weight: 4
 ---
 
-![icon_stagelights](http://mvcowboysfootball.files.wordpress.com/2013/07/icon_stagelights1.jpg)
-
-### "The  price of success is hard work, dedication to the job at hand, and the determination that whether we win or lose, we have applied the best of ourselves to the task at hand." - _Vince Lombardi_
+{% include quote.html text="The price of success is hard work, dedication to the job at hand, and the determination that whether we win or lose, we have applied the best of ourselves to the task at hand." source="Vince Lombardi" %}
 
 {% include youtube.html embed="WmaKj-Nx6DI" width="950" height="315" %}
 

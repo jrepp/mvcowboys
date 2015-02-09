@@ -1,11 +1,9 @@
 ---
 title: Important Phone Numbers
 categories: []
-tags: ['resources']
+tags: ['parents']
 status: publish
 type: content
-published: true
-author: 
 ---
 
 For Medial Emergencies call 911

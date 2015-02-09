@@ -1,0 +1,15 @@
+---
+title: Game Shots
+tags: ['football']
+status: publish
+type: content
+---
+<div id="content-carousel" class="owl-carousel">
+    {% for series in site.data.game_photos %}
+			{% for image in series.images %}
+				<div class="panel">
+					<img class="scaled-img img-responsive" src="{{site.url}}/assets/{{image}}"></img>
+				</div>
+			{% endfor %}
+    {% endfor %}
+ </div>

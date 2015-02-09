@@ -1,12 +1,10 @@
 ---
-title: Cheer
+title: Cheer Program
 categories: []
-tags: ['about']
-status: publish
+tags: ['cheer']
 type: content
 published: true
-author: 
-weight: 2
+weight: 1
 ---
 # **The Mission Viejo Youth**
 

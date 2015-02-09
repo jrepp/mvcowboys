@@ -2,11 +2,10 @@
 title: "Who do we compete against?"
 categories:
 - General
-tags: ['about']
+tags: ['football']
 status: publish
 type: content
-published: true
-author: 
+weight: 4
 ---
  **CHECK OUT THE COMPETITION...**
 

@@ -1,7 +1,31 @@
----
-layout: default
----
-    <h1 class="post_title">{{page.title}}</h1>
-      {% if page.date %}{% include meta.md %}{% endif %}
-      {{content}}
-      {% include next_action.md %}
+{% include head.html %}
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-8 content">
+			<div class="panel panel-default">
+
+				<div class="panel-heading">
+					<h3>
+						{{page.title}}
+					</h2>
+					{% if page.date %}{% include meta.html %}{% endif %}
+				</div>
+
+				<div class="panel-body">
+			  		{{content}}
+				</div>
+			</div>
+
+			{% include facebook_like.html %}
+		</div>
+
+		<div class="col-md-4">
+			{% include upcoming_events_well.html %}
+			{% include posts_well.html %}
+			{% include affiliates_well.html %}
+		</div>
+	</div>
+</div>
+
+{% include footer.html %}

@@ -2,11 +2,9 @@
 title: Forms & Handouts
 categories:
 - Cowboy Post
-tags: ['resources']
+tags: ['football']
 status: publish
 type: content
-published: true
-author: 
 ---
 #### _Here are some of Chapter and PCC League forms you may need. Simply click on the name to download them._
 

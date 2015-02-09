@@ -1,14 +1,12 @@
 <!-- Side Widget Well -->
-<div class="well">
-  <h4>Posts</h4>
-  <ul class="list-unstyled">
+<div class="panel panel-default">
+	<div class="panel-heading">Posts</div>
+	<div class="panel-body">
     {% for post in site.posts limit:5 %}
-		  <li>
-		  	<div class="well well-sm">
-		  		<span class="glyphicon glyphicon-star-empty"></span>
-		  		<span><a href="{{post.url}}">{{post.title}}</a></span>
-		    </div>
-			</li>
+ 			<div class="fluid-row">
+				<span class="glyphicon glyphicon-star-empty"></span>
+	  		<span><a href="{{post.url}}">{{post.title}}</a></span>
+		  </div>
     {% endfor %}
-  </ul>
+	</div>
 </div> <!-- /.well -->

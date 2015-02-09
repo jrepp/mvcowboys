@@ -1,0 +1,39 @@
+---
+-
+    name: "Opening Day"
+    season: 2014
+    team: all
+    images: [
+        "2014-mm/092014 MVYF_opening_day_036.jpg",
+        "2014-mm/092014 MVYF_opening_day_062.jpg",
+        "2014-mm/092014 MVYF_opening_day_089.jpg" ]
+    photographer: "Marc Roth"
+    info_text: ""
+
+-
+    name: "Game Photos"
+    season: 2014
+    team: mm
+    images: [
+        "2014-mm/091314_SUNDEVILSvsCOWBOYS_17.jpg",
+        "2014-mm/101814_LKvsMVC_142.jpg",
+        "2014-mm/102514_BEvsMVC_018.jpg",
+        "2014-mm/102514_BEvsMVC_103.jpg",
+        "2014-mm/102514_BEvsMVC_255.jpg" ]
+
+-
+    name: "Mighty Mite Game Shots"
+    season: 2014
+    team: mm
+    images: [
+        "2014-09-06-mightymite/game1.png",
+        "2014-09-06-mightymite/game2.png",
+        "2014-09-06-mightymite/game3.png",
+        "2014-09-06-mightymite/game4.png" ]
+
+-
+    src: "Kelly Camp"
+    season: 2014
+    team: all
+    images: [ "2014-mm/14_Kelly_ProCamp_002.jpg" ]
+

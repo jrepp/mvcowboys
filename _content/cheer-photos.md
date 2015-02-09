@@ -1,11 +1,9 @@
 ---
 title: Cheer Photos
 categories: []
-tags: ['media']
-status: publish
+tags: ['cheer']
 type: content
-published: true
-author: 
+published: false
 weight: 2
 ---
 ![Icon_Manwithstopwatch](http://mvcowboysfootball.files.wordpress.com/2013/08/icon_manwithstopwatch.jpg)_Please be patient as the photos load......._
